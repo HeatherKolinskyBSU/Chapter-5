@@ -6,7 +6,7 @@ void hello() {               // Declares the function
 }
 
 int main() {                 // Begins the "main" function
-	hello();                 // Calls the "hello" function
+	hello();             // Calls the "hello" function
 
 	return 0;
 }                            // Ends "main" function
