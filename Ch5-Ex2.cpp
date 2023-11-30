@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 
-void userCalculation(int num) {
+void userCalculationAddition(int num) {
+
+}
+void userCalculationSubtraction(int num) {
+
+}
+void userCalculationMultiplication(int num) {
+
+}
+void userCalculationSubtraction(int num) {
 
 }
 
@@ -16,8 +25,8 @@ int main()
 
 	cout << endl;
 
-	int Calculation = 0;
-	int userInput;
+	string calculation;
+	char userInput;
 	cout << "What would you like to do with these numbers?" << endl;
 	cout << "Addition       | +" << endl;
 	cout << "Subtraction    | -" << endl;
@@ -28,6 +37,19 @@ int main()
 
 	cout << endl;
 
+	if (userInput == '+') {
+
+	}
+	else if (userInput == '-') {
+
+	}
+	else if (userInput == '*') {
+
+	}
+	else if (userInput == '/') {
+
+	}
+	else cout << "Invalid Input." << endl;
 
 	return 0;
 }
