@@ -1,29 +1,29 @@
 #include <iostream>
 using namespace std;
 
-void userCalculationAddition(int userNum, int userNum2){
-	int total = userNum + userNum2;
+void userCalculationAddition(double userNum, double userNum2){
+	double total = userNum + userNum2;
 	cout << total << endl;
 }
-void userCalculationSubtraction(int userNum, int userNum2) {
-	int total = userNum - userNum2;
+void userCalculationSubtraction(double userNum, double userNum2) {
+	double total = userNum - userNum2;
 	cout << total << endl;
 }
-void userCalculationMultiplication(int userNum, int userNum2) {
-	int total = userNum * userNum2;
+void userCalculationMultiplication(double userNum, double userNum2) {
+	double total = userNum * userNum2;
 	cout << total << endl;
 }
-void userCalculationDivision(int userNum, int userNum2) {
-	int total = userNum / userNum2;
+void userCalculationDivision(double userNum, double userNum2) {
+	double total = userNum / userNum2;
 	cout << total << endl;
 }
 
 int main()
 {
-	int userNum;
+	double userNum;
 	cout << "Enter the first number:  ";
 	cin >> userNum;
-	int userNum2;
+	double userNum2;
 	cout << "Enter the second number: ";
 	cin >> userNum2;
 
