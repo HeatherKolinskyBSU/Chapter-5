@@ -1,17 +1,21 @@
 #include <iostream>
 using namespace std;
 
-void userCalculationAddition(int num) {
-
+void userCalculationAddition(int userNum, int userNum2){
+	int total = userNum + userNum2;
+	cout << total << endl;
 }
-void userCalculationSubtraction(int num) {
-
+void userCalculationSubtraction(int userNum, int userNum2) {
+	int total = userNum - userNum2;
+	cout << total << endl;
 }
-void userCalculationMultiplication(int num) {
-
+void userCalculationMultiplication(int userNum, int userNum2) {
+	int total = userNum * userNum2;
+	cout << total << endl;
 }
-void userCalculationSubtraction(int num) {
-
+void userCalculationDivision(int userNum, int userNum2) {
+	int total = userNum / userNum2;
+	cout << total << endl;
 }
 
 int main()
@@ -38,16 +42,20 @@ int main()
 	cout << endl;
 
 	if (userInput == '+') {
-
+		userCalculationAddition(userNum, userNum2);
+		return 0;
 	}
 	else if (userInput == '-') {
-
+		userCalculationSubtraction(userNum, userNum2);
+		return 0;
 	}
 	else if (userInput == '*') {
-
+		userCalculationMultiplication(userNum, userNum2);
+		return 0;
 	}
 	else if (userInput == '/') {
-
+		userCalculationDivision(userNum, userNum2);
+		return 0;
 	}
 	else cout << "Invalid Input." << endl;
 
